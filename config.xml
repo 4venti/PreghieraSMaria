@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "cse.preghierasmariaweb"
+    versionCode = "1"
+    version     = "1.1.0" >
+
+<!-- versionCode is optional and Android only -->
+
+  <name>Preghiera con Sant'Egidio</name>
+
+  <description>
+      Podcast e LIVE dal lunedì al venerdì dalle 20:30 alle 21 dalla basilica di Santa Maria in Trastevere in Roma
+  </description>
+
+  <author href="http://www.santegidio.org" email="romadove@tiscali.it">
+      Comunita' di Sant'Egidio
+  </author>
+
+  <icon src="icon.png" />
+  </widget>

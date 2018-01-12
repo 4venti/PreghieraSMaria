@@ -31,7 +31,7 @@
 					<div id="player_1" style="width: 100%; height: 240px;"></div>
 					<script type="text/javaScript">
 					jwplayer('player_1').setup({
-								file: "http://5.189.166.18:1935/liveaudio/preghierait.sdp/playlist.m3u8",
+								file: "http://smarias.segidio.net:1935/liveaudio/preghierait.sdp/playlist.m3u8",
 								rtmp: {bufferlength: 5},
 								autostart: "true"
 							});
@@ -49,7 +49,7 @@
 					};					</script>
 					<br />
  					<ul class="actions">
-						<li><a href="javascript:LoadSource('http://5.189.166.18:1935/liveaudio/preghierait.sdp/playlist.m3u8','Diretta');" class="button special icon fa-volume-up">Diretta</a></li>
+						<li><a href="javascript:LoadSource('http://smarias.segidio.net:1935/liveaudio/preghierait.sdp/playlist.m3u8','Diretta');" class="button special icon fa-volume-up">Diretta</a></li>
 						<li><a href="#two" class="button icon fa-chevron-down scrolly">Podcast</a></li>
 					</ul>
 				</div>
@@ -65,7 +65,7 @@
 					<section id="buttonfile" >
 		<!-- 			<div class="alert alert-info"><strong>Podcast</strong></div> *-->
 <script  type="text/javascript">
-let url = 'http://radio.segidio.net/audio/preghiera/listmp3j.php';
+let url = 'http://smarias.segidio.net/audio/preghiera/listmp3j.php';
 
 fetch(url)
 .then(res => res.json())
@@ -75,7 +75,7 @@ fetch(url)
        obj.filename.forEach(function(item, index){ 
          //console.log('['+index+'] '+item); 
 		 var fdate = item.replace(/(\d{4})\-(\d{2})\-(\d{2}).*/, '$3-$2-$1')
-		 document.getElementById("buttonfile").innerHTML += "<p><a href=\"javascript:LoadSource('http://ns238174.ovh.net/audio/preghiera/"+item+"-PreghieraSMariaInT.mp3','Registrazione del "+fdate+"')\"class=\"button special\">&nbsp; Registrazione del "+fdate+"&nbsp;</a></p>";
+		 document.getElementById("buttonfile").innerHTML += "<p><a href=\"javascript:LoadSource('http://smarias.segidio.net/audio/preghiera/"+item+"-PreghieraSMariaInT.mp3','Registrazione del "+fdate+"')\"class=\"button special\">&nbsp; Registrazione del "+fdate+"&nbsp;</a></p>";
          });
 })
 .catch(err => { throw err });

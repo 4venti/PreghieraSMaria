@@ -19,7 +19,7 @@
 
   <icon src="icon.png" />
   <preference name="phonegap-version" value="cli-9.0.0" />
-  <preference name="android-minSdkVersion" value="16" /> 
+  <preference name="android-minSdkVersion" value="20" /> 
   <preference name="android-targetSdkVersion" value="28" /> 
   
   <plugin name="cordova-plugin-whitelist" version="1"/>

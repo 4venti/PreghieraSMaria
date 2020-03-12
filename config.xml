@@ -24,8 +24,10 @@
   
   <plugin name="cordova-plugin-whitelist" version="1"/>
   <allow-navigation href="https://smarias.segidio.net:8443/audio/preghiera/*" />
-  <allow-navigation href="https://content.jwplatform.com/libraries/v2EUsUe1.js" />
+  <allow-navigation href="https://content.jwplatform.com/libraries/*" />
   <allow-navigation href="https://5a7c085aa114e.streamlock.net/*" />
+  
+  <allow-navigation href="https://ssl.p.jwpcdn.com/player/v/8.12.5/*" />
   
 
   </widget>

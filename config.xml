@@ -27,7 +27,8 @@
   <allow-navigation href="https://content.jwplatform.com/libraries/*" />
   <allow-navigation href="https://5a7c085aa114e.streamlock.net/*" />
   
-  <allow-navigation href="https://ssl.p.jwpcdn.com/player/v/8.12.5/*" />
+  <!--<allow-navigation href="https://ssl.p.jwpcdn.com/player/v/8.12.5/*" /><-->
+  <allow-navigation href="https://ssl.p.jwpcdn.com/player/v/*" />
   
 
   </widget>

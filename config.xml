@@ -2,15 +2,15 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "cse.preghierasmariaweb"
-    versionCode = "3"
-    version     = "2.2.0" >
+    versionCode = "4"
+    version     = "2.3.0" >
 
 <!-- versionCode is optional and Android only -->
 
   <name>Preghiera con Sant'Egidio</name>
 
   <description>
-      Podcast e LIVE dalla basilica di Santa Maria in Trastevere in Roma
+      Podcast e LIVE dalla Comunità di Sant'Egidio
   </description>
 
   <author href="https://www.santegidio.org" email="marco.peroni@hotmail.com">

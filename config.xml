@@ -17,7 +17,7 @@
       Comunita' di Sant'Egidio
   </author>
 
-  <!--<icon src="icon.png" />-->
+  <icon src="icon.png" />
   <preference name="phonegap-version" value="cli-9.0.0" />
   <preference name="android-minSdkVersion" value="20" /> 
   <preference name="android-targetSdkVersion" value="28" /> 

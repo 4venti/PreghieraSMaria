@@ -2,8 +2,8 @@
 <widget xmlns   = "http://www.w3.org/ns/widgets"
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "cse.preghierasmariaweb"
-    versionCode = "5"
-    version     = "2.4.0" >
+    versionCode = "6"
+    version     = "2.5.0" >
 
 <!-- versionCode is optional and Android only -->
 
@@ -17,7 +17,25 @@
       Comunita' di Sant'Egidio
   </author>
 
-  <icon src="icon.png" />
+	<icon src="hdpi.png" platform="android" qualifier="hdpi" />
+	<icon src="xhdpi.png" platform="android" qualifier="xhdpi" />
+	<icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
+	<icon src="xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
+
+	<!-- iPhone 6 / 6+ -->
+	<icon src="icon-60@3x.png" platform="ios" width="180" height="180" />
+
+	<!-- iPhone / iPod Touch  -->
+	<icon src="icon-60.png" platform="ios" width="60" height="60" />
+	<icon src="icon-60@2x.png" platform="ios" width="120" height="120" />
+
+	<!-- iPad -->
+	<icon src="icon-76.png" platform="ios" width="76" height="76" />
+	<icon src="icon-76@2x.png" platform="ios" width="152" height="152" />
+	<icon src="icon-83.5@2x.png" platform="ios" width="167" height="167" />
+
+
+
   <preference name="phonegap-version" value="cli-9.0.0" />
   <preference name="android-minSdkVersion" value="20" /> 
   <preference name="android-targetSdkVersion" value="28" /> 

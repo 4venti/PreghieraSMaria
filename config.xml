@@ -34,7 +34,7 @@
 	<icon src="icon-76@2x.png" platform="ios" width="152" height="152" />
 	<icon src="icon-83.5@2x.png" platform="ios" width="167" height="167" />
 
-
+	<splash src="splash.png" />
 
   <preference name="phonegap-version" value="cli-9.0.0" />
   <preference name="android-minSdkVersion" value="20" /> 

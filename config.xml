@@ -60,7 +60,7 @@
   <preference name="prerendered-icon" value="true" />
   <preference name="detect-data-types" value="true" />
   <preference name="exit-on-suspend" value="true" />
-  <preference name="deployment-target" value="13.0" />
+  <preference name="deployment-target" value="7.0" />
   
   <plugin name="cordova-plugin-whitelist" version="1"/>
   <allow-navigation href="https://smarias.segidio.net:8443/audio/preghiera/*" />

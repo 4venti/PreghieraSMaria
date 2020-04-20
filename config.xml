@@ -22,18 +22,32 @@
 	<icon src="xxhdpi.png" platform="android" qualifier="xxhdpi" />
 	<icon src="xxxhdpi.png" platform="android" qualifier="xxxhdpi" />
 
+    <!-- iPhone / iPod Touch -->
+    <icon src="icon.png" platform="ios" width="57" height="57" />
+    <icon src="icon@2x.png" platform="ios" width="114" height="114" />
+	
 	<!-- iPhone 6 / 6+ -->
-	<icon src="icon-60@3x.png" platform="ios" width="180" height="180" />
-
+	<icon src="icon-60@3x.png" platform="ios" width="180" height="180" /><!-- Recommended -->
+	
 	<!-- iPhone / iPod Touch  -->
 	<icon src="icon-60.png" platform="ios" width="60" height="60" />
-	<icon src="icon-60@2x.png" platform="ios" width="120" height="120" />
+	<icon src="icon-60@2x.png" platform="ios" width="120" height="120" /><!-- Required -->
 
 	<!-- iPad -->
-	<icon src="icon-76.png" platform="ios" width="76" height="76" />
-	<icon src="icon-76@2x.png" platform="ios" width="152" height="152" />
-	<icon src="icon-83.5@2x.png" platform="ios" width="167" height="167" />
+	<icon src="icon-72.png" platform="ios" width="72" height="72" /><!-- Recommended -->
+	<icon src="icon-72@2x.png" platform="ios" width="144" height="144" /><!-- Recommended -->
+	
+	<icon src="icon-76.png" platform="ios" width="76" height="76" /><!-- Recommended -->
+	<icon src="icon-76@2x.png" platform="ios" width="152" height="152" /><!-- Recommended -->
+	<icon src="icon-83.5@2x.png" platform="ios" width="167" height="167" /><!-- Recommended -->
 
+	<!-- iPad Pro -->
+	<icon src="icon-167.png" platform="ios" width="167" height="167" />
+	
+
+
+	
+	<!-- Splash -->
 	<splash src="splash.png" />
 
   <preference name="phonegap-version" value="cli-9.0.0" />
@@ -46,7 +60,7 @@
   <preference name="prerendered-icon" value="true" />
   <preference name="detect-data-types" value="true" />
   <preference name="exit-on-suspend" value="true" />
-  <!--<preference name="deployment-target" value="7.0" />-->
+  <preference name="deployment-target" value="13.0" />
   
   <plugin name="cordova-plugin-whitelist" version="1"/>
   <allow-navigation href="https://smarias.segidio.net:8443/audio/preghiera/*" />

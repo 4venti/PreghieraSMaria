@@ -44,13 +44,15 @@
 	<!-- iPad Pro -->
 	<icon src="icon-167.png" platform="ios" width="167" height="167" />
 	
+	<icon src="icon-1024.png" platform="ios" width="1024" height="1024" />
 
 
 	
 	<!-- Splash -->
 	<splash src="splash.png" />
 
-  <preference name="phonegap-version" value="cli-9.0.0" />
+  <!--<preference name="phonegap-version" value="cli-9.0.0" />-->
+  <preference name="phonegap-version" platform="ios" value="cli-7.1.0" />
   
   <!-- Android only -->
   <preference name="android-minSdkVersion" value="20" /> 

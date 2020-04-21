@@ -51,7 +51,7 @@
 	<!-- Splash -->
 	<splash src="splash.png" />
 
-  <!--<preference name="phonegap-version" value="cli-9.0.0" />-->
+  <preference name="phonegap-version" platform="android" value="cli-9.0.0" />
   <preference name="phonegap-version" platform="ios" value="cli-7.1.0" />
   
   <!-- Android only -->
